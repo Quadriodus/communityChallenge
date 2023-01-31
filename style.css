@@ -294,6 +294,22 @@ body {
   background-color: #f6fbff;
 }
 
+.CF2 #down {
+  display: none !important;
+}
+
+.CF2 #up {
+  display: block !important;
+}
+
+.CF #down {
+  display: none !important;
+}
+
+.CF #up {
+  display: block !important;
+}
+
 @media only screen and (max-width: 950px) {
   .images2 {
     width: 330px;
@@ -355,5 +371,21 @@ body {
 
   .sec1 {
     width: auto;
+  }
+
+  .CF2 #down {
+    display: block !important;
+  }
+
+  .CF2 #up {
+    display: none !important;
+  }
+
+  .CF #down {
+    display: block !important;
+  }
+
+  .CF #up {
+    display: none !important;
   }
 }
